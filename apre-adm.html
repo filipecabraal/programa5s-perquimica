@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--forçar o internet explorer-->
+	<meta name="viewport" content="width=device-width, initial-scale=1"> <!--boostrap-->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	<link rel="stylesheet" type="text/css" href="style.css"> <!--meu estilo-->
+  	<link rel="stylesheet" type="text/css" href="animate.css"> <!--biblioteca de animações-->
+  	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"> <!--fav icon-->
+	<title>5s | Administrativo</title>
+</head>
+<body>
+	<!--cabeçalho-->
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			
+			<div class="navbar-header">
+				<a href="index.html" class="navbar-brand">5S Pernambuco Química</a>
+				<a class="navbar-toggle" type="button" data-toggle="collapse" data-target="#myNavbar">
+					<spam class="icon-bar"></spam>
+					<spam class="icon-bar"></spam>
+					<spam class="icon-bar"></spam>
+				</a>	
+			</div>
+
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li id="navbar"><a class="btn-navbar" href="" data-toggle="modal" data-target="#modal-planta">Planta</a></li>
+					<li id="navbar"><a class="btn-navbar" href="checklist.html">Checklist</a></li>
+					<li id="navbar">
+						<a id="active" class="btn-navbar" href="" data-toggle="dropdown">Melhorias&nbsp;<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="apre-adm.html" id="active">Administrativo</a></li>
+							<li><a href="apre-produ.html">Produção</a></li>
+						</ul>
+					</li>
+					<li id="navbar"><a class="btn-navbar" href="">Eventos</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!--modal da planta-->
+	<div class="modal fade" role="dialog" id="modal-planta">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-header"><button type="button" class="close" data-dismiss="modal">&times;</button><h4>Produção</h4></div>
+				<div class="modal-body"><img src="img/produ-planta.jpg" style="height: 80%; width: 100%;"></div>
+				<div class="modal-footer"><button class="btn btn-md btn-default btn-padrao" data-dismiss="modal">Fechar</button></div>
+			</div>
+		</div>
+	</div>
+	
+	<!--primeiro container-->
+	<div class="container container-apst">
+		
+		<div class="well">
+			<h3>Abaixo você vai encontrar todas as melhorias dos ciclos do programa 5s na área administrativa da Pernambuco Química. Veja com apenas um click a evolução de nossas áreas.</h3>
+		</div>
+	
+	<!--setores-->
+
+	<!--comercial e compras-->
+		<div class="panel panel-default wow fadeIn">
+			<div class="panel-body">
+				<h4 style="display: inline; margin-left: 5px;"><b>COMERCIAL E COMPRAS</b><br><br>(Total de colaboradores: 09)</h4>	
+				<button type="button" class="btn btn-deafault btn-padrao" style="float: right;">Veja as melhorias!</button>
+			</div>
+		</div>	
+	
+	<!--contabilidade-->
+		<div class="panel panel-default wow fadeIn">
+			<div class="panel-body">
+				<h4 style="display: inline; margin-left: 5px;"><b>CONTABILIDADE</b><br><br>(Total de colaboradores: 06)</h4>	
+				<button type="button" class="btn btn-deafault btn-padrao" style="float: right;">Veja as melhorias!</button>
+			</div>
+		</div>
+
+	<!--controladoria-->
+		<div class="panel panel-default wow fadeIn">
+			<div class="panel-body">
+				<h4 style="display: inline; margin-left: 5px;"><b>CONTROLADORIA</b><br><br>(Total de colaboradores: 03)</h4>	
+				<button type="button" class="btn btn-deafault btn-padrao" style="float: right;">Veja as melhorias!</button>
+			</div>
+		</div>
+
+	<!--dp e rh-->
+		<div class="panel panel-default wow fadeIn">
+			<div class="panel-body">
+				<h4 style="display: inline; margin-left: 5px;"><b>DP E RH</b><br><br>(Total de colaboradores: 04)</h4>	
+				<button type="button" class="btn btn-deafault btn-padrao" style="float: right;">Veja as melhorias!</button>
+			</div>
+		</div>
+
+	<!--financeiro-->
+		<div class="panel panel-default wow fadeIn">
+			<div class="panel-body">
+				<h4 style="display: inline; margin-left: 5px;"><b>FINANCEIRO</b><br><br>(Total de colaboradores: 11)</h4>	
+				<button type="button" class="btn btn-deafault btn-padrao" style="float: right;">Veja as melhorias!</button>
+			</div>
+		</div>
+
+	<!--recepção e diretoria-->
+		<div class="panel panel-default wow fadeIn">
+			<div class="panel-body">
+				<h4 style="display: inline; margin-left: 5px;"><b>RECEPÇÃO E DIRETORIA</b><br><br>(Total de colaboradores: 07)</h4>	
+				<button type="button" class="btn btn-deafault btn-padrao" style="float: right;">Veja as melhorias!</button>
+			</div>
+		</div>			
+
+	</div>
+
+<!--rodapé-->
+	<footer class="container-fluid">
+		<h3>Todos os direitos reservados à Pernambuco Química   |  (81) 2123-1400</h3>
+		<a href="http://www.pernambucoquimica.com.br/">www.pernambucoquimica.com.br</a><br>
+		<br><img src="img/logo-gpq.jpg" style="width: 64px; height: 53px;" class="img-circle">
+	</footer>
+
+<!--plugin efeito rolagem-->
+	<script src="WOW-master/dist/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+
+</body>
+</html>
